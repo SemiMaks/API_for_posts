@@ -35,6 +35,7 @@ class PostIn(BaseModel):
 class Post(BaseModel):
     id: int
     title: str
+    text: str
     is_publisher: bool
 
 
